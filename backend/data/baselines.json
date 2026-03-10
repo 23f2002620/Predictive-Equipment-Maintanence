@@ -1,0 +1,182 @@
+[
+  {
+    "Parameter": "helium_pressure_psi",
+    "Machine Type": "MRI",
+    "Unit": "PSI",
+    "Min Normal": 14.0,
+    "Max Normal": 15.0,
+    "Critical Low": 12.0,
+    "Critical High": 16.0
+  },
+  {
+    "Parameter": "cryogen_level_percent",
+    "Machine Type": "MRI",
+    "Unit": "%",
+    "Min Normal": 95.0,
+    "Max Normal": 100.0,
+    "Critical Low": 85.0,
+    "Critical High": 100.0
+  },
+  {
+    "Parameter": "gradient_coil_temp_celsius",
+    "Machine Type": "MRI",
+    "Unit": "\u00b0C",
+    "Min Normal": 20.0,
+    "Max Normal": 25.0,
+    "Critical Low": 18.0,
+    "Critical High": 30.0
+  },
+  {
+    "Parameter": "gradient_coil_performance_score",
+    "Machine Type": "MRI",
+    "Unit": "Score",
+    "Min Normal": 90.0,
+    "Max Normal": 100.0,
+    "Critical Low": 80.0,
+    "Critical High": 100.0
+  },
+  {
+    "Parameter": "rf_coil_snr_db",
+    "Machine Type": "MRI",
+    "Unit": "dB",
+    "Min Normal": 25.0,
+    "Max Normal": 35.0,
+    "Critical Low": 20.0,
+    "Critical High": 40.0
+  },
+  {
+    "Parameter": "magnetic_field_strength_tesla",
+    "Machine Type": "MRI",
+    "Unit": "T",
+    "Min Normal": 2.95,
+    "Max Normal": 3.05,
+    "Critical Low": 2.9,
+    "Critical High": 3.1
+  },
+  {
+    "Parameter": "xray_tube_current_ma",
+    "Machine Type": "CT",
+    "Unit": "mA",
+    "Min Normal": 300.0,
+    "Max Normal": 400.0,
+    "Critical Low": 250.0,
+    "Critical High": 450.0
+  },
+  {
+    "Parameter": "xray_tube_voltage_kv",
+    "Machine Type": "CT",
+    "Unit": "kV",
+    "Min Normal": 110.0,
+    "Max Normal": 130.0,
+    "Critical Low": 100.0,
+    "Critical High": 140.0
+  },
+  {
+    "Parameter": "tube_heat_unit_percent",
+    "Machine Type": "CT",
+    "Unit": "%",
+    "Min Normal": 30.0,
+    "Max Normal": 60.0,
+    "Critical Low": 20.0,
+    "Critical High": 80.0
+  },
+  {
+    "Parameter": "detector_calibration_drift_score",
+    "Machine Type": "CT",
+    "Unit": "Score",
+    "Min Normal": 0.5,
+    "Max Normal": 1.0,
+    "Critical Low": 0.2,
+    "Critical High": 1.5
+  },
+  {
+    "Parameter": "rotation_speed_rpm",
+    "Machine Type": "CT",
+    "Unit": "RPM",
+    "Min Normal": 58.0,
+    "Max Normal": 62.0,
+    "Critical Low": 55.0,
+    "Critical High": 65.0
+  },
+  {
+    "Parameter": "internal_temp_celsius",
+    "Machine Type": "Both",
+    "Unit": "\u00b0C",
+    "Min Normal": 19.0,
+    "Max Normal": 24.0,
+    "Critical Low": 15.0,
+    "Critical High": 30.0
+  },
+  {
+    "Parameter": "ambient_temp_celsius",
+    "Machine Type": "Both",
+    "Unit": "\u00b0C",
+    "Min Normal": 20.0,
+    "Max Normal": 23.0,
+    "Critical Low": 18.0,
+    "Critical High": 26.0
+  },
+  {
+    "Parameter": "vibration_amplitude_mm_s",
+    "Machine Type": "Both",
+    "Unit": "mm/s",
+    "Min Normal": 0.05,
+    "Max Normal": 0.18,
+    "Critical Low": 0.01,
+    "Critical High": 0.3
+  },
+  {
+    "Parameter": "power_consumption_kwh",
+    "Machine Type": "MRI",
+    "Unit": "kWh",
+    "Min Normal": 80.0,
+    "Max Normal": 90.0,
+    "Critical Low": 70.0,
+    "Critical High": 100.0
+  },
+  {
+    "Parameter": "power_consumption_kwh",
+    "Machine Type": "CT",
+    "Unit": "kWh",
+    "Min Normal": 100.0,
+    "Max Normal": 120.0,
+    "Critical Low": 90.0,
+    "Critical High": 135.0
+  },
+  {
+    "Parameter": "cooling_system_temp_celsius",
+    "Machine Type": "Both",
+    "Unit": "\u00b0C",
+    "Min Normal": 17.0,
+    "Max Normal": 20.0,
+    "Critical Low": 15.0,
+    "Critical High": 25.0
+  },
+  {
+    "Parameter": "error_code_freq_7d",
+    "Machine Type": "Both",
+    "Unit": "Count",
+    "Min Normal": 0.0,
+    "Max Normal": 3.0,
+    "Critical Low": 0.0,
+    "Critical High": 10.0
+  },
+  {
+    "Parameter": "scan_volume_per_day",
+    "Machine Type": "MRI",
+    "Unit": "Scans",
+    "Min Normal": 35.0,
+    "Max Normal": 50.0,
+    "Critical Low": 20.0,
+    "Critical High": 60.0
+  },
+  {
+    "Parameter": "scan_volume_per_day",
+    "Machine Type": "CT",
+    "Unit": "Scans",
+    "Min Normal": 45.0,
+    "Max Normal": 65.0,
+    "Critical Low": 25.0,
+    "Critical High": 75.0
+  }
+]

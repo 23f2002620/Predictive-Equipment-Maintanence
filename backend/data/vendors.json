@@ -1,0 +1,38 @@
+[
+  {
+    "vendor_id": "VND_001",
+    "vendor_name": "Siemens Healthineers Service",
+    "specialization": "MRI Systems",
+    "contact_person": "Rajesh Kumar",
+    "phone": "+91-9876543210",
+    "email": "rajesh.kumar@siemens.com",
+    "response_time_hours": 4,
+    "hourly_rate_inr": 8500,
+    "available_slots": "Mon-Fri 6AM-10PM; Sat 8AM-4PM",
+    "service_rating": 4.8
+  },
+  {
+    "vendor_id": "VND_002",
+    "vendor_name": "GE Healthcare Biomedical",
+    "specialization": "CT / X-Ray Systems",
+    "contact_person": "Priya Nair",
+    "phone": "+91-9845671234",
+    "email": "priya.nair@ge.com",
+    "response_time_hours": 6,
+    "hourly_rate_inr": 7200,
+    "available_slots": "Mon-Sat 7AM-9PM",
+    "service_rating": 4.6
+  },
+  {
+    "vendor_id": "VND_003",
+    "vendor_name": "MedTech Solutions India",
+    "specialization": "MRI + CT General",
+    "contact_person": "Arun Sharma",
+    "phone": "+91-9900112233",
+    "email": "arun@medtechsolutions.in",
+    "response_time_hours": 12,
+    "hourly_rate_inr": 5500,
+    "available_slots": "Mon-Fri 9AM-6PM",
+    "service_rating": 4.1
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "machine_id": "MRI_01",
+    "risk_tier": "Monitor \ud83d\udfe1",
+    "preventive_cost_inr": 150000.0,
+    "emergency_repair_cost_inr": 800000.0,
+    "lost_revenue_per_day_inr": 800000.0,
+    "downtime_days": 1.0,
+    "total_breakdown_cost_inr": 1600000.0,
+    "net_saving_inr": 1450000.0
+  },
+  {
+    "machine_id": "MRI_01",
+    "risk_tier": "Schedule \ud83d\udd34",
+    "preventive_cost_inr": 150000.0,
+    "emergency_repair_cost_inr": 1200000.0,
+    "lost_revenue_per_day_inr": 800000.0,
+    "downtime_days": 3.0,
+    "total_breakdown_cost_inr": 3600000.0,
+    "net_saving_inr": 3450000.0
+  },
+  {
+    "machine_id": "MRI_01",
+    "risk_tier": "Critical \u26ab",
+    "preventive_cost_inr": 150000.0,
+    "emergency_repair_cost_inr": 1500000.0,
+    "lost_revenue_per_day_inr": 800000.0,
+    "downtime_days": 7.0,
+    "total_breakdown_cost_inr": 7100000.0,
+    "net_saving_inr": 6950000.0
+  },
+  {
+    "machine_id": "CT_01",
+    "risk_tier": "Monitor \ud83d\udfe1",
+    "preventive_cost_inr": 120000.0,
+    "emergency_repair_cost_inr": 600000.0,
+    "lost_revenue_per_day_inr": 600000.0,
+    "downtime_days": 1.0,
+    "total_breakdown_cost_inr": 1200000.0,
+    "net_saving_inr": 1080000.0
+  },
+  {
+    "machine_id": "CT_01",
+    "risk_tier": "Schedule \ud83d\udd34",
+    "preventive_cost_inr": 120000.0,
+    "emergency_repair_cost_inr": 900000.0,
+    "lost_revenue_per_day_inr": 600000.0,
+    "downtime_days": 2.0,
+    "total_breakdown_cost_inr": 2100000.0,
+    "net_saving_inr": 1980000.0
+  },
+  {
+    "machine_id": "CT_01",
+    "risk_tier": "Critical \u26ab",
+    "preventive_cost_inr": 120000.0,
+    "emergency_repair_cost_inr": 1200000.0,
+    "lost_revenue_per_day_inr": 600000.0,
+    "downtime_days": 5.0,
+    "total_breakdown_cost_inr": 4200000.0,
+    "net_saving_inr": 4080000.0
+  },
+  {
+    "machine_id": "TOTAL",
+    "risk_tier": NaN,
+    "preventive_cost_inr": NaN,
+    "emergency_repair_cost_inr": NaN,
+    "lost_revenue_per_day_inr": NaN,
+    "downtime_days": NaN,
+    "total_breakdown_cost_inr": NaN,
+    "net_saving_inr": NaN
+  }
+]
