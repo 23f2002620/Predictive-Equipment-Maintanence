@@ -1,5 +1,9 @@
+<!--
+  App.vue -- Root layout: sidebar + router-view
+  Fix: hospital name was empty string in footer paragraph
+-->
 <template>
-  <div style= height:100vh; overflow:hidden; background:var(--white);">
+  <div style="display:flex; height:100vh; overflow:hidden; background:var(--white);">
 
     <!-- Sidebar -->
     <aside style="width:230px; flex-shrink:0; background:var(--gray-50); border-right:1px solid var(--gray-200); display:flex; flex-direction:column; overflow:hidden;">
@@ -78,7 +82,7 @@
           <span style="font-size:12px; color:var(--gray-600); font-weight:500;">Agent Active</span>
         </div>
         <!-- FIX: was empty string "" -->
-        <p style="font-size:11px; color:var(--gray-400);"></p>
+        <p style="font-size:11px; color:var(--gray-400);">Kathir Memorial Hospital</p>
       </div>
     </aside>
 
