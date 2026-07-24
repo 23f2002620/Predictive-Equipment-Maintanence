@@ -1,4 +1,4 @@
-# MediWatch — Predictive Equipment Maintenance
+# Predictive Maintenance for MRI/CT
 ## GKM_11 · GLITCHCON 2.0 · Team FASTENERS
 
 > Autonomous AI agent that predicts MRI/CT scanner failures before they happen —
